@@ -28,7 +28,6 @@ This repository reflects my practical skills in analyzing real-world security sc
 * Build a portfolio for cybersecurity roles
 
 ## 🧪 Labs Covered (SOC / DFIR Tracking)
-## 🧪 Labs Covered
 
 | Lab Name             | Category           | Tools Used              | MITRE ATT&CK Technique              | Description                                   |
 |---------------------|--------------------|------------------------|--------------------------------------|-----------------------------------------------|
@@ -52,6 +51,7 @@ This repository reflects my practical skills in analyzing real-world security sc
 | Backdoor Detection  | Malware Analysis   | Strings, IDA           | T1543 – System Process Modification  | Analyzed malware backdoor and system modifications |
 | Lateral Movement    | Incident Response  | Logs, Wireshark        | T1021 – Remote Services              | Tracked attacker lateral movement across hosts |
 | Suspicious DNS      | Network Forensics  | Wireshark              | T1071.004 – DNS                      | Investigated abnormal DNS queries for data tunneling |
+
 ⚠️ Note: Writeups do not include flags where restricted, in compliance with platform policies.
 
 **🛠️ Tools & Technologies**

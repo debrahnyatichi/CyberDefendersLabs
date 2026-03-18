@@ -27,10 +27,31 @@ This repository reflects my practical skills in analyzing real-world security sc
 
 * Build a portfolio for cybersecurity roles
 
-**🧪 Labs Covered**
-**Lab Name	        Category   Tools          Used	                  Status**
-PoisonedCredentials	Network   Forensics	Wireshark, tcpdump	✅ Completed
+## 🧪 Labs Covered (SOC / DFIR Tracking)
+## 🧪 Labs Covered
 
+| Lab Name             | Category           | Tools Used              | MITRE ATT&CK Technique              | Description                                   |
+|---------------------|--------------------|------------------------|--------------------------------------|-----------------------------------------------|
+| PoisonedCredentials | Network Forensics  | Wireshark, tcpdump     | T1556 – Modify Authentication Process| Analyzed compromised credentials in a network capture |
+| SPAN Sniff          | Network Forensics  | Wireshark              | T1046 – Network Service Discovery    | Investigated mirrored network traffic for anomalies |
+| Gamer Case          | Disk Forensics     | Autopsy, FTK, Strings  | T1078 – Valid Accounts               | Recovered evidence from disk image to track insider misuse |
+| Memory Leak         | Memory Forensics   | Volatility             | T1055 – Process Injection            | Identified malicious processes injected in memory |
+| Log Analysis 101    | SIEM / Logs        | Splunk, ELK            | T1110 – Brute Force                  | Detected brute-force login attempts from system logs |
+| Phishing Attack     | Incident Response  | Email Header Analyzer  | T1566 – Phishing                     | Investigated phishing emails and analyzed headers |
+| Malware Traffic     | Network Forensics  | Wireshark, Zeek        | T1071 – Application Layer Protocol   | Detected command-and-control traffic in PCAP capture |
+| Web Attack Logs     | Web Security       | Burp Suite, Logs       | T1190 – Exploit Public-Facing App    | Analyzed web server logs for injection attacks |
+| Ransomware Incident | Incident Response  | Volatility, Autopsy    | T1486 – Data Encrypted for Impact    | Investigated ransomware infection and affected systems |
+| DNS Exfiltration    | Network Forensics  | Wireshark, tcpdump     | T1048 – Exfiltration Over Alt Prot.  | Detected data exfiltration via DNS tunneling |
+| Suspicious Login    | SIEM / Logs        | Splunk                 | T1078 – Valid Accounts               | Tracked unusual login patterns for unauthorized access |
+| Malware Dropper     | Malware Analysis   | Strings, PEStudio      | T1204 – User Execution               | Analyzed a malware dropper to understand its behavior |
+| ARP Spoofing        | Network Forensics  | Wireshark              | T1557 – Adversary-in-the-Middle      | Detected ARP poisoning attempts on the network |
+| Privilege Escalation| Incident Response  | Logs, Linux CLI        | T1068 – Privilege Escalation         | Investigated unauthorized privilege escalation activity |
+| Suspicious Process  | Memory Forensics   | Volatility             | T1059 – Command Execution            | Identified suspicious processes running in memory |
+| Data Exfiltration   | Network Forensics  | Wireshark, Zeek        | T1041 – Exfiltration Over C2         | Detected large outbound data transfers to suspicious hosts |
+| Brute Force Attack  | SIEM / Logs        | Splunk                 | T1110 – Brute Force                  | Monitored repeated login attempts for potential brute force |
+| Backdoor Detection  | Malware Analysis   | Strings, IDA           | T1543 – System Process Modification  | Analyzed malware backdoor and system modifications |
+| Lateral Movement    | Incident Response  | Logs, Wireshark        | T1021 – Remote Services              | Tracked attacker lateral movement across hosts |
+| Suspicious DNS      | Network Forensics  | Wireshark              | T1071.004 – DNS                      | Investigated abnormal DNS queries for data tunneling |
 ⚠️ Note: Writeups do not include flags where restricted, in compliance with platform policies.
 
 **🛠️ Tools & Technologies**

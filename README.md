@@ -70,18 +70,6 @@ This repository reflects my practical skills in analyzing real-world security sc
 
 🌐 OSINT Techniques
 
-**📂 Repository Structure**
-CyberDefenders-Labs/
-│
-├── Network-Forensics/
-│   ├── Lab-Name/
-│   │   ├── writeup.md
-│   │   └── screenshots/
-│
-├── Memory-Forensics/
-├── Malware-Analysis/
-└── Incident-Response/
-
 **🧠 Methodology**
 
 Each lab follows a structured investigation approach:

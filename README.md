@@ -28,7 +28,7 @@ This repository reflects my practical skills in analyzing real-world security sc
 * Build a portfolio for cybersecurity roles
 
 ## 🧪 Labs Covered (SOC / DFIR Tracking)
-1. **Poisoned Credentials:** Analyzed network traffic to detect LLMNR/NBT-NS poisoning and identify compromised accounts and affected systems.
+1. [Poisoned Credentials](./NetworkForensics/PoisonedCredentialsLab.pdf):** Analyzed network traffic to detect LLMNR/NBT-NS poisoning and identify compromised accounts and affected systems.
 
 **🛠️ Tools & Technologies**
 
